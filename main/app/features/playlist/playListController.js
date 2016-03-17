@@ -13,9 +13,7 @@ angular.module('terminator')
             };
 
             self.editPlayList = function (item) {
-                console.log(item);
                 self.currentPlayList = item;
-                console.log(self.currentPlayList);
             };
 
             self.addStep = function () {

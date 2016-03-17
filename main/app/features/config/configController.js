@@ -2,13 +2,6 @@
 
 angular.module('terminator')
     .controller('ConfigController', [
-        'ConfigService',
-        function (ConfigService) {
-            var self = this;
+        function () {
 
-            self.settings = ConfigService.get();
-
-            self.saveSettings = function () {
-                ConfigService.save(self.settings);
-            }
         }]);

@@ -1,5 +1,4 @@
 'use strict';
-
 /* App Module */
 angular.module('terminator.directives', []);
 angular.module('terminator.services', []);
